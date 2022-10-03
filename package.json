@@ -1,0 +1,17 @@
+{
+  "name": "3-space-man",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "dead-server": "^1.0.6"
+  },
+  "scripts": {
+    "dev": "dead-server --port=4004 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Paulius",
+  "license": "MIT"
+}
