@@ -1,0 +1,22 @@
+header {
+    background-color:yellow;
+    width: 800px;
+    margin-left: calc(50% - 400px);
+}
+main {
+    background-color: green;
+}
+footer {
+    background-color: red;
+}
+header > p {
+    background-color: blue;
+}
+p {
+    background-color: aqua;
+    font-size: 10px;
+}
+p > span {
+    font-size: 30px;
+}
+/* > specifikavimo zenkla duoda pirmuma /*
