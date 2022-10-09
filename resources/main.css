@@ -1,22 +1,25 @@
+body {
+    margin: 5%;
+    
+}
 header {
-    background-color:yellow;
-    width: 800px;
-    margin-left: calc(50% - 400px);
+display: inline-block;  
+background-color: brown;
+width: 100%;  
+
 }
-main {
-    background-color: green;
-}
-footer {
-    background-color: red;
-}
-header > p {
-    background-color: blue;
-}
-p {
+header > .link {
+   
+    width: 2em;
     background-color: aqua;
-    font-size: 10px;
+    text-align: right;
+    
+    
 }
-p > span {
-    font-size: 30px;
+header > .div.logo {
+    background-color: blueviolet;
+    text-align: left;
+    display: inline-block;
+    
 }
 /* > specifikavimo zenkla duoda pirmuma /*
