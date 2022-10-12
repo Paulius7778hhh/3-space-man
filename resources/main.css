@@ -18,6 +18,8 @@ body {
     float: left;
     object-fit: contain;
     object-position: top left;
+    height: 50px;
+    margin-top: -10px;
     
 
 }
@@ -32,24 +34,34 @@ header .link {
     color: #000;
     padding: 5px;
     margin-right: 35px;
+    text-transform: capitalize;
+    font-size: large;
+}
+.headline span {
+    font-weight: normal;
 }
 .headline {
-
+font-size: 80px;
+width: 40%;
+white-space: nowrap;
 }
 .left-column {
-width: 40%;
+  display: inline-block;
+    width: 40%;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .btn {
-
+    
 }
-.btn-white {
-
-}
-.underline {
+.white {
 
 }
 .right-column {
 float: right;
+width: 50%;
+position: absolute;
+left: 500px;
 }
 footer .link {
 
@@ -59,4 +71,13 @@ footer .link {
 }
 header .link:first-child {
 margin-left:  0;
+}
+.headline .line {
+    display: block;
+    height: 8px;
+    background-color: #662c8c;
+}
+span .button {
+    display: inline-block;
+    width:40%
 }
