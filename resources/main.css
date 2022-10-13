@@ -11,7 +11,7 @@ body {
     width: 1000px;
     display: inline-block;
     margin-left: calc(50% - 500px);
-    margin-bottom: 45px;
+    margin-bottom: 20px;
     margin-top: 45px
 }
 .logo {
@@ -41,43 +41,86 @@ header .link {
     font-weight: normal;
 }
 .headline {
-font-size: 80px;
-width: 40%;
-white-space: nowrap;
+    display: inline-block;
+    font-size: 40px;
+    white-space: nowrap;
+}
+.headoff {
+    display: inline-block;
+width: 50%;
+
 }
 .left-column {
   display: inline-block;
-    width: 40%;
+    width: 50%;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 65px;
+    padding-right: 20px;
 }
 .btn {
-    
+   
+  margin: 20px;
+  background-color: #662c8c; 
+  color: white;
+  text-decoration: none;
+  padding: 2em;
+  padding-left: 4em;
+  padding-right: 4em;
+  border-radius: 60px;
+  text-transform: uppercase;
+  border: 2px solid #662c8c;
+  font-weight: 1000;
 }
 .white {
-
+background-color: white;
+color: #662c8c;
+}
+.btn:hover {
+    background-color: white;
+    color: #662c8c;
+}
+.white:hover {
+    background-color: #662c8c; 
+  color: white;
 }
 .right-column {
 float: right;
 width: 50%;
-position: absolute;
-left: 500px;
+
+
 }
 footer .link {
-
+    height: 2em;
+    width: 2em;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    line-height: 2em;
+    color: #ccc;
+    text-decoration: none;
+}
+footer .link:hover {
+    background-color: #662c8c; 
+    color: white;
+    border-radius: 60px;
 }
 .copyright {
-
+text-align: right;
+margin-right: 80px;
 }
 header .link:first-child {
 margin-left:  0;
+}
+header .link:first-child:hover {
+    text-decoration: underline;
 }
 .headline .line {
     display: block;
     height: 8px;
     background-color: #662c8c;
+    width: 60%;
+    
 }
-span .button {
-    display: inline-block;
-    width:40%
+h1 {
+    width: 50%;
 }
